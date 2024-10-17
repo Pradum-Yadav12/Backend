@@ -2,14 +2,18 @@
   "name": "backendpractice",
   "version": "1.0.0",
   "description": "It's all about backend taught by Hitesh Sir",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javaScript",
     "backend"
   ],
   "author": "Pradum Yadav",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
 }
